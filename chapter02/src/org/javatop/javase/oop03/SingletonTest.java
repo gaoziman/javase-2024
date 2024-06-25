@@ -13,7 +13,8 @@ public class SingletonTest {
         Singleton s1 = Singleton.get();
         System.out.println(s1);
         Singleton s2 = Singleton.get();
-        System.out.println(s2);// this will create a new instance of Singleton
+        System.out.println(s2);
+        // this will create a new instance of Singleton
 
     }
 }
